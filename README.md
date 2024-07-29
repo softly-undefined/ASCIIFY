@@ -2,7 +2,7 @@
 
 ASCIIFY is an image -> .txt converter using python
 
-The math itself can be found in the asciify.py file, but to describe it lightly depending on the size you choose a differently sized rectangle of pixels is chosen, converted to greyscale, and identified by intensity value between 0 and 255. Next the directory of ASCII characters is pixelated so each character contains the same number of pixels as our rectangles in the image. The project next uses euclidean distances to determine the "closest" ASCII character to that section of the image, repeated throughout the entire image.
+The math itself can be found in the asciify.py file, but to describe it lightly depending on the size you choose a differently sized rectangle of pixels is chosen, converted to greyscale, and identified by intensity value between 0 and 255. The directory of ASCII characters is then pixelated so each character contains the same number of pixels as our rectangles in the image, and also converted to an intensity array. The project next uses euclidean distances to determine the "closest" ASCII character to that section of the image. This repeated throughout the entire image creating our final product!
 
 The image .txt files should be viewed in an editor with equal spacing between characters, with characters being white and the background being black. For best results use Apple's built in TextEdit on dark mode, which the ASCII set included was based in.
 
