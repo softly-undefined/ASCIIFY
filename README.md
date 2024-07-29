@@ -16,6 +16,8 @@ This file asciifys a range of pixel_sizes identified in the file so you can see 
 This file enables you to create an asciifyed video, generating a directory of .txt files containing each frame of the input video at your designated pixel_size
 
 # Conclusion
-While the simpleasciify.py file does everything an average user could want with this kind of project, and this is going to be the end of my exploration in the subject, there's a lot of places this code could go. In the default version I use purely euclidean distances to determine accuracy, but I left in a way to weigh the cosine similarity into the equation. I lightly considered other evaluation techniques as well which could be implemented rather simply. While it's currently set up exclusively to use a dictionary of the ASCII characters and write to a .txt file, it wouldn't be much work to use any directory of images as the "dictionary" set (for example a friend recommended using faces of a dice) to create interesting collages, and whether I come back to it or someone out there does I hope it can be of some use!
+While the simpleasciify.py file does everything an average user could want with this kind of fun small project, there's a lot of places this work could go. In the default version I use purely euclidean distances to determine accuracy, but I left it in a way that you can easily weigh the cosine similarity into the equation (I lightly considered other evaluation techniques as well which could be implemented very easily).
+
+It's currently set up exclusively to use a dictionary of the ASCII characters and write to a .txt file, but it wouldn't be much work to use any directory of images as the "dictionary" set (for example a friend recommended using faces of a dice) to create interesting collages. Whether I come back to it someday or someone else out there does I hope it can be of some use!
 
 -Eric Bennett 2024
