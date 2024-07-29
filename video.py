@@ -16,11 +16,13 @@ import asciify
 #    @P3B  ^Nggg_ gN^     J@    [N   @NN@p  X@g@`  
 #  _@MMM@L _   _BE$&  __  J@    [N   @       J@`   
 #  9F   'P MNNNM"  "MMP` MMMMM NMMMP N       N`    
+#
+# Creates a folder containing each frame of a video file converted to ASCII
 
 video_path = "input-files/input2.mp4"  # Replace with the path to your video file
 frames_dir = "output-files/video_frames" # this directory will be created
 output_dir = "output-files/ascii_frames_2" # this directory will be created
-pixel_size = 100
+pixel_size = 100 #this is the pixel size used
 
 
 def split_video_to_frames(input_video_path, output_dir):
