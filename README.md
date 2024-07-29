@@ -1,5 +1,5 @@
 # ASCIIFY
-
+![asciifyimage](https://github.com/softly-undefined/asciify/blob/main/readmeimg.png?raw=true)
 
 ASCIIFY is an image -> .txt converter using python created by me (Eric Bennett)
 
