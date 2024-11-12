@@ -109,8 +109,8 @@ class PlotAsciify:
 
         plt.show()
 
-
-asciify_plotter = PlotAsciify(csv_file=csv_file,image_path=image_path,pixel_size_low=pixel_size_low,pixel_size_high=pixel_size_high)
-asciify_plotter.test_data()
-asciify_plotter.plot_data()
+#uncomment to run here
+#asciify_plotter = PlotAsciify(csv_file=csv_file,image_path=image_path,pixel_size_low=pixel_size_low,pixel_size_high=pixel_size_high)
+#asciify_plotter.test_data()
+#asciify_plotter.plot_data()
 
